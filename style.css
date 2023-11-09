@@ -1,0 +1,624 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+/*First block for all content*/
+.all-content {
+    margin: 0;
+    height: 847px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+}
+
+/*div container*/
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+/*div container header*/
+.containerheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+}
+/*input type search*/
+.search {
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    background: transparent;
+    background-image: url(Icon/iconsearch.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: none;
+
+}
+/*div icon svg*/
+.div-icon-svg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/*div icon svg paragraph "coral"*/
+.paragraph-coral {
+    font-size: 28px;
+    margin: 0;
+}
+/*div sing up "account or shoping"*/
+.div-sing-up {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.account-shoping{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.div-sing-up-ancor {
+    text-decoration: none;
+    color: #1E2832;
+    font-size: 18px;
+    font-family: "roboto";
+}
+/* line hr element*/
+hr {
+    width: 1320px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-color: #E3E3E3;
+    border: none;
+}
+/*div menu*/
+.div-menu {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/*div menu ancor tag*/
+.div-menu-ancor {
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: var(--Dark, #000);
+    text-decoration: none;
+
+}
+/*div product*/
+.div-product {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    margin-right: 90px;
+}
+
+.div-product-header {
+    display: flex;
+    justify-content: space-between;
+    height: 562px;
+    width: 1226px;
+
+}
+
+.div-product-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+ /*div product paragraph "collection"*/
+.product-paragraph-colection {
+    font-family: "roboto";
+    font-size: 74px;
+    font-weight: 300;
+    margin-top: 74px;
+    margin-bottom: 0;
+}
+/*div product paragraph "content"*/
+.div-product-paragraph {
+    width: 682px;
+    height: 119px;
+    margin-top: 52px;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    
+}
+
+/*div product input button "shop buton"*/
+.shopbutton {
+    width: 223px;
+    height: 72px;
+    margin-top: 66px;
+    background: var(--Black, #1E2832);
+    background-image: url(Icon/icon2.png);
+    background-repeat: no-repeat;
+    background-position: 26px 50%;
+    color: var(--White, #FFF);
+    font-family: "roboto";
+    font-size: 29px;
+    font-weight: 400;
+    padding-left: 22px;
+    border: none;
+    }
+/*div product image*/
+.div-product-image {
+    position: relative;
+    display: flex;
+}
+.div-product-image-engin {
+    position: relative;
+    border-radius: 160px 0px 160px 0px;
+
+}
+/*image rectangle*/
+.image-Rectangle {
+    position: absolute;
+    right: -18px;
+    top: 40px;
+}
+
+/* background image*/
+.bacground-image-frame {
+    position: absolute;
+    top: 616.62px;
+}
+
+.bacground-image-vector {
+    position: absolute;
+    top: 365px;
+    right: 0;
+}
+
+/*container brand*/
+.containe-brand {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.container-brand-logo {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+/*container hot category galery*/
+.container-hot-category {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+
+.container-hot-category-position {
+    position: relative;
+    width: 1320px;
+    height: 648px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.container-hot-category-image1 {
+    padding-top: 16px;
+    padding-left: 24px;
+
+
+}
+
+.container-hot-category-image2 {
+    width: 648px;
+    height: 644px;
+}
+
+.container-hot-category-image3 {
+    padding-left: 24px;
+}
+/*rotate paragraph*/
+.div-rotate-paragraph {
+    position: absolute;
+    left: -380px;
+    top: 300px;
+    width: 648px;
+    height: 52px; 
+    transform: rotate(-90deg);
+
+}
+
+.rotate-paragraph {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+/*div grid products*/
+.div-grid-center {
+    display: flex;
+    justify-content: center;
+}
+
+.div-grid {
+    margin-top: 140px;
+    Width: 1320px;
+    Height: 1141px;
+}
+/*div grid paragraph title*/
+.grid-section-title-paragraph {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 35px;
+
+}
+/*div grid category clothes*/
+.div-grid-category-clothes {
+    display: flex;
+    justify-content: space-between;
+}
+/*div grid category*/
+.div-grid-category {
+    width: 373px;
+    display: flex;
+    justify-content: space-between;
+}
+/* div grid paragraph "all products"*/
+.category-all-products {
+    color: var(--Dark, #000);
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/*div grid paragraph clothes category*/
+.div-category-clothes {
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+
+}
+/*div grid input button "filter"*/
+.div-grid-input-button {
+    width: 92px;
+    height: 32px;
+    color: var(--White, #FFF);
+    font-family: "OpenSans";
+    font-size: 16px;
+    background: var(--Black, #1E2832);
+    background-image: url(Icon/v6-icon-filter\ \(free\).png);
+    background-repeat: no-repeat;
+    background-position: 15px 50%;
+    padding-left: 25px;
+    border: none;
+}
+/*grid products image*/
+.grid-prducts {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-prducts2 {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+/*zara image background*/
+.ZARA {
+    position: relative;
+    margin-top: 140px;
+}
+
+.zara-background {
+    width: 100%;
+    height: 776px;
+}
+
+/* zara logo*/
+.zara-logo {
+    position: absolute;
+    right: 0;
+    top: 51px;
+}
+
+.zara-logo-2 {
+    position: absolute;
+    right: 646px;
+    top: 233px;
+}
+/* paragraph zara*/
+.paragraph-zara {
+    position: absolute;
+    right: 333px;
+    top: 360px;
+    width: 504px;
+    height: 187px;
+    color: #FFF;
+    font-family: "roboto";
+    font-size: 26px;
+    line-height: 60px; 
+    margin: 0;   
+}
+/*zara input button*/
+.zara-input-button {
+    position: absolute;
+    right: 600px;
+    top: 611px;
+    border: none;
+    width: 237px;
+    height: 72px;
+    color: var(--Black, #1E2832);
+    font-family: "roboto";
+    font-size: 29px;
+}
+/* container best seller */
+.container-best-seller {
+    display: flex;
+    justify-content: center;
+}
+
+.container-top-section {
+    margin-top: 140px;
+    width: 1320px;
+    height: 639px;
+}
+/*container best seller paragraph*/
+.container-best-seller-paragraph {
+    color: var(--Dark, #000);
+    text-align: center;
+    font-family: "roboto";
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 35px;
+}
+/*container best seller input*/
+.container-best-seller-input {
+    width: 93px;
+    height: 32px;
+    color: var(--White, #FFF);
+    font-family: "OpenSans";
+    font-size: 16px;
+    background: var(--Black, #1E2832);
+    border: none;
+}
+/* container bestseller product image*/ 
+.container-best-seller-product {
+    position: relative;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+/* container best seller aicon*/
+.container-best-seler-icon {
+    position: absolute;
+    width: 1315px;
+    display: flex;
+    justify-content: space-between;
+    top: 178px;
+}
+/* div container newsletter instagram*/ 
+.container-newsletter-instagram {
+    height: 754px;
+    margin-top: 140px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05))
+    
+}
+/*div container instagram*/
+.div-container-instagram {
+    padding-top: 100px;
+    height: 319px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/*container instagram paragraph*/
+.container-instagram-title {
+    font-family: "roboto";
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+/*container instagram image*/
+.container-instagram-image {
+    padding-top: 60px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+/*container newsletter form*/
+.container-newsletter-form {
+    width: 760px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.container-newsletter-form-paragraph {
+    font-family: "roboto";
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+/*container newsletter form input*/
+.container-newsletter-form-input {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+}
+
+.container-newsletter-form-Email {
+    width: 643px;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 0 0 13px 15px;
+    background-color: transparent;
+    outline: none;
+    font-family: "roboto";
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--Black-50, rgba(30, 40, 50, 0.50));
+}
+
+.container-newsletter-form-Submit {
+    width: 91px;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    font-family: "OpenSans";
+    font-size: 16px;
+}
+/*container footer*/
+.container-footer {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-top-footer {
+    display: flex;
+}
+ /*footer menu one*/
+.footer-menu-one {
+    width: 392px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
+.futer-menu-one-paragraph-logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-menu-paragraph {
+    color: var(--Black-75, rgba(30, 40, 50, 0.75));
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "OpenSans";
+    margin-top: 32px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.footer-menu-one-icon {
+    width: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+
+}
+
+/*footer menu two*/
+.footer-menu-two {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 212px;
+    margin-left: 54px;
+}
+/*Used on all titles on this div menu*/
+.footer-menu-two-title {
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0
+}
+/*Used on all ancor tag on this div menu*/
+.footer-menu-two-ancor-div {
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;    
+    gap: 12px;
+}
+
+.footer-menu-two-ancor {
+    color: var(--Black, #1E2832);
+    font-family: "OpenSans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    text-decoration: none;
+    
+    
+}
+/*footer menu three*/
+.footer-menu-Three {
+    width: 200px;
+    height: 212px;
+    margin-left: 136px;
+}
+/* footer menu four*/
+.footer-menu-four {
+    width: 199px;
+    height: 212px;
+    margin-left: 137px;
+}
+
+/* container bottom footer*/
+.container-bottom-footer {
+    background-color: #1E2832;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.bottom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+}
+/* bottom footer paragraph*/
+.bottom-footer-paragraph {
+    color: var(--White, #FFF);
+    font-family: "OpenSans";
+    font-size: 16px;
+}
+
+.bottom-footer-input {
+    border: none;
+    width: 150px;
+    padding-right: 35px;
+    background-color: transparent;
+    color: var(--White, #FFF);
+    font-family: "OpenSans";
+    font-size: 16px;
+    background-image: url(Icon/icon-scrol.png);
+    background-repeat: no-repeat;
+    background-position: 110px 50%;
+
+}
